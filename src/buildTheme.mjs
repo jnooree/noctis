@@ -1,6 +1,7 @@
 import fs from "fs";
 import { promisify } from "util";
 import { createSyntax } from "./createSyntax.mjs";
+import { createSemantics } from "./createSemantics.mjs";
 /**
  *
  *
@@ -12,8 +13,9 @@ import { createSyntax } from "./createSyntax.mjs";
  */
 export async function buildTheme(path, syntaxColors, themeWorkbench, themeName) {
    let syntaxWithColors = createSyntax(syntaxColors);
+   let semanticsWithColors = createSemantics(syntaxColors);
    const writeFileAsync = promisify(fs.writeFile);
-   const theme = themeWorkbench(syntaxWithColors);
+   const theme = themeWorkbench(syntaxWithColors, semanticsWithColors);
    try {
       await writeFileAsync(path, JSON.stringify(theme, null, 3));
       console.log(`✔  ${themeName} theme built`);

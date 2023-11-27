@@ -1,0 +1,11 @@
+* text=auto
+
+# Taken from fd -Htf -x file | grep CRLF
+/.vscodeignore whitespace=cr-at-eol
+/src/buildTheme.mjs whitespace=cr-at-eol
+/src/syntax.mjs whitespace=cr-at-eol
+/src/workbench/minimus.mjs whitespace=cr-at-eol
+/src/makeThemePath.mjs whitespace=cr-at-eol
+/src/buildAllThemes.mjs whitespace=cr-at-eol
+/src/createSyntax.mjs whitespace=cr-at-eol
+/src/workbench/*.mjs whitespace=cr-at-eol

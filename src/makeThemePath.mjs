@@ -6,6 +6,8 @@ import fs from "fs";
  * @returns {array}
  */
 export function makeThemePath(themesArray) {
+   fs.mkdirSync("./themes", { recursive: true });
+
    const PATHS = [];
    themesArray.forEach(theme => {
       let path = `./themes/${Object.keys(theme)}.json`;

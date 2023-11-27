@@ -1,6 +1,2 @@
-.gitignore
+.git*
 src/**/*
-palette.css
-JavaScript.js
-TypeScript.ts
-vscodecustom.css

@@ -1,4 +1,4 @@
-export default syntax => ({
+export default (syntax, semantics) => ({
   name: "Noctis Minimus",
   type: "dark",
   colors: {
@@ -83,8 +83,8 @@ export default syntax => ({
     "editorError.foreground": "#b96346",
     "editorWarning.border": "#1b2932",
     "editorWarning.foreground": "#c09159",
-    "editorInfo.border": "#1b2932",
-    "editorInfo.foreground": "#5998c0",
+    "editorInfo.border": "#00000000",
+    "editorInfo.foreground": "#5998c080",
     "editorHint.border": "#72c09f00",
     "editorHint.foreground": "#72c09f",
     // ---------------------------
@@ -160,7 +160,7 @@ export default syntax => ({
     "editorSuggestWidget.border": "#101213",
     "editorSuggestWidget.foreground": "#96a8b6",
     "editorSuggestWidget.highlightForeground": "#5998c0",
-    "editorSuggestWidget.selectedBackground": "#2c414e",
+    "editorSuggestWidget.selectedBackground": "#00558acc",
     // ---------------------------
     // Gutter
     // ---------------------------
@@ -174,8 +174,8 @@ export default syntax => ({
     "editor.selectionBackground": "#496d8355",
     "editor.selectionHighlightBackground": "#5998c033",
     "editor.inactiveSelectionBackground": "#496d8333",
-    "editor.wordHighlightStrongBackground": "#b3994d33",
-    "editor.wordHighlightBackground": "#d3b69233",
+    "editor.wordHighlightStrongBackground": "#87837833",
+    "editor.wordHighlightBackground": "#b7b3ae33",
     "editor.findMatchBackground": "#72c09f25",
     "editor.findMatchHighlightBackground": "#0e667179",
     "editor.findRangeHighlightBackground": "#72c09f22",
@@ -318,11 +318,11 @@ export default syntax => ({
     "list.activeSelectionBackground": "#2c414e",
     "list.activeSelectionForeground": "#ebf7ff",
     "list.dropBackground": "#152837",
-    "list.focusBackground": "#213745",
+    "list.focusBackground": "#00558a",
     "list.focusForeground": "#ebf7ff",
     "list.highlightForeground": "#5998c0",
-    "list.hoverBackground": "#00558a",
-    "list.hoverForeground": "#ebf7ff",
+    "list.hoverBackground": "#2c414e",
+    "list.hoverForeground": "#96a8b6",
     "list.inactiveFocusBackground": "#1e2b33",
     "list.inactiveSelectionBackground": "#22313a",
     "list.inactiveSelectionForeground": "#c5cdd3",
@@ -397,5 +397,7 @@ export default syntax => ({
     "minimapGutter.deletedBackground": "#b96346",
     "minimap.background": "#1b293299"
   },
-  tokenColors: syntax
+  tokenColors: syntax,
+  semanticHighlighting: true,
+  semanticTokenColors: semantics,
 });
