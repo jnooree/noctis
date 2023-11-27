@@ -1,7 +1,7 @@
 {
-  "name": "noctis",
-  "displayName": "Noctis",
-  "description": "Noctis is a collection of light & dark themes with a well balanced blend of warm and cold colors",
+  "name": "semantic-noctis",
+  "displayName": "Semantic Noctis",
+  "description": "Semantic Noctis is a modified version of Noctis Lux and Noctis Minimus, with semantic highlighting support.",
   "version": "0.0.0",
   "publisher": "jnooree",
   "icon": "images/logo.png",
@@ -21,7 +21,8 @@
     "url": "https://github.com/jnooree/noctis"
   },
   "scripts": {
-    "build": "node src/build.mjs"
+    "build": "node src/build.mjs",
+    "deploy": "vsce publish"
   },
   "categories": [
     "Themes",
@@ -38,15 +39,18 @@
   "contributes": {
     "themes": [
       {
-        "label": "Noctis Lux",
+        "label": "Semantic Noctis Lux",
         "uiTheme": "vs",
         "path": "./themes/lux.json"
       },
       {
-        "label": "Noctis Minimus",
+        "label": "Semantic Noctis Minimus",
         "uiTheme": "vs-dark",
         "path": "./themes/minimus.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.22.0"
   }
 }
