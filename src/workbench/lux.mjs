@@ -1,5 +1,5 @@
 export default (syntax, semantics) => ({
-  name: "Noctis Lux",
+  name: "Semantic Noctis Lux",
   type: "light",
   colors: {
     //  // ---------------------------
