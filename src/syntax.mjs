@@ -549,8 +549,6 @@ export default [
       "keyword.other.base.cs",
       "variable.other.member.c",
       "support.type.core.rust",
-      "variable.other.object.property",
-      "variable.other.property",
       "source.r meta.function.r keyword.control.r",
       "comment.line.roxygen.r keyword",
       "comment.line.roxygen.r variable.parameter.r",
