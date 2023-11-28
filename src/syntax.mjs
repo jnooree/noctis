@@ -676,8 +676,6 @@ export default [
       "support.function.textbf",
       "source.graphql support.type.builtin",
       "source.ocaml variable.interpolation string",
-      "entity.name.function.definition.special.constructor",
-      "entity.name.function.definition.special.member.destructor.",
       "meta.function.parameters variable punctuation.definition.variable.php",
       "source.wsd keyword.other.activity",
       "keyword.control.class.ruby",

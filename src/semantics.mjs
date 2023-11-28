@@ -16,6 +16,7 @@ export default {
         "foreground": "NUMBER",
     },
     "function": {
+        "fontStyle": "",
         "foreground": "FUNCTION",
     },
     "function.static": {
