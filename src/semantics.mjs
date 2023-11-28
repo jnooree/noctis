@@ -3,6 +3,9 @@ export default {
         "fontStyle": "",
         "foreground": "MISC",
     },
+    "class.constructorOrDestructor": {
+        "bold": true,
+    },
     "class.constructor": {
         "foreground": "MISC",
     },
@@ -55,6 +58,9 @@ export default {
     "selfParameter": {
         "italic": true,
     },
+    "unknown.dependentName": {
+        "italic": true,
+    },
     "variable": {
         "fontStyle": "",
         "foreground": "TEXT",
@@ -75,6 +81,12 @@ export default {
     // c/cpp
     "*.usedAsMutableReference:cpp": {
         "underline": true,
+    },
+    "*.usedAsMutablePointer:cpp": {
+        "underline": true,
+    },
+    "function.usedAsMutablePointer:cpp": {
+        "underline": false,
     },
     "comment:cpp": {
         "foreground": "DEADCODE",
