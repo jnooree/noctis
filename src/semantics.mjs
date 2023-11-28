@@ -7,24 +7,18 @@ export default {
         "foreground": "MISC",
     },
     "clsParameter": {
-        "fontStyle": "italic",
-    },
-    "clsParameter.declaration": {
-        "fontStyle": "italic bold",
+        "italic": true,
     },
     "enumMember": {
-        "fontStyle": "",
         "foreground": "NUMBER",
     },
     "function": {
-        "fontStyle": "",
         "foreground": "FUNCTION",
     },
     "function.static": {
         "foreground": "STATICFUNC",
     },
     "macro": {
-        "fontStyle": "",
         "foreground": "MACRO",
     },
     "magicFunction": {
@@ -34,7 +28,6 @@ export default {
         "foreground": "METHOD",
     },
     "method": {
-        "fontStyle": "",
         "foreground": "METHOD",
     },
     "method.readonly": {
@@ -44,30 +37,23 @@ export default {
         "foreground": "STATICFUNC",
     },
     "module": {
-        "fontStyle": "bold",
+        "bold": true,
         "foreground": "ANNOTATION",
-    },
-    "namespace": {
-        "fontStyle": "",
     },
     "operator": {
         "foreground": "KEYWORD",
     },
     "parameter": {
-        "fontStyle": "",
+        "bold": false,
     },
     "parameter.declaration": {
-        "fontStyle": "bold",
+        "bold": true,
     },
     "property": {
-        "fontStyle": "",
         "foreground": "CONSTANT",
     },
     "selfParameter": {
-        "fontStyle": "italic",
-    },
-    "selfParameter.declaration": {
-        "fontStyle": "italic bold",
+        "italic": true,
     },
     "variable": {
         "fontStyle": "",
@@ -80,7 +66,7 @@ export default {
         "foreground": "ANNOTATION",
     },
     "variable.globalScope": {
-        "fontStyle": "bold",
+        "bold": true,
         "foreground": "ANNOTATION",
     },
     "variable.static": {
@@ -88,21 +74,18 @@ export default {
     },
     // c/cpp
     "*.usedAsMutableReference:cpp": {
-        "fontStyle": "underline",
+        "underline": true,
     },
     "comment:cpp": {
         "foreground": "DEADCODE",
     },
     "enum:cpp": {
-        "fontStyle": "bold",
         "foreground": "MISC",
     },
     "type:cpp": {
-        "fontStyle": "",
         "foreground": "MISC",
     },
     "type.defaultLibrary:cpp": {
-        "fontStyle": "italic",
         "foreground": "SUPPORT",
     },
     "typeParameter:cpp": {
@@ -117,10 +100,10 @@ export default {
     },
     // python
     "class.builtin:python": {
-        "fontStyle": "italic",
+        "italic": true,
     },
     "function.builtin:python": {
-        "fontStyle": "italic",
+        "italic": true,
     },
     "keyword.overridden:python": {
         "foreground": "KEYWORD",
@@ -133,13 +116,13 @@ export default {
     },
     // Other languages
     "*.mutable:rust": {
-        "fontStyle": "underline",
+        "underline": true,
     },
     "method.static:java": {
         "foreground": "FUNCTION",
     },
     "namespace:java": {
-        "fontStyle": "bold",
+        "bold": true,
         "foreground": "ANNOTATION",
     },
     "property.static:java": {
