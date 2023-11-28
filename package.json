@@ -2,7 +2,7 @@
   "name": "semantic-noctis",
   "displayName": "Semantic Noctis",
   "description": "Semantic Noctis is a modified version of Noctis Lux and Noctis Minimus, with semantic highlighting support.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "jnooree",
   "icon": "images/logo.png",
   "engines": {
