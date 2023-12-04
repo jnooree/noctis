@@ -89,9 +89,6 @@ export default {
     "function.usedAsMutablePointer:cpp": {
         "underline": false,
     },
-    "comment:cpp": {
-        "foreground": "DEADCODE",
-    },
     "enum:cpp": {
         "foreground": "MISC",
     },

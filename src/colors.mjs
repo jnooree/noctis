@@ -18,7 +18,7 @@ export default {
       macro: "#b35579",
       method: "#3ea629",
       methodconst: "#00800b",
-      deadcode: "#a68c8c",
+      // deadcode: "#a68c8c",
       pymethod: "#189022",
    },
    minimus: {
@@ -40,7 +40,7 @@ export default {
       macro: "#b35579",
       method: "#5ba65b",
       methodconst: "#318c48",
-      deadcode: "#876d5e",
+      // deadcode: "#876d5e",
       pymethod: "#469c5c",
    },
 };
