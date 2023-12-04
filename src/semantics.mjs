@@ -126,6 +126,10 @@ export default {
         "foreground": "CONSTANT",
     },
     // Other languages
+    "punctuation:shellscript": {
+        "fontStyle": "",
+        "foreground": "VARIABLE",
+    },
     "*.mutable:rust": {
         "underline": true,
     },
