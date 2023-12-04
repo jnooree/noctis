@@ -99,6 +99,7 @@ export default {
         "foreground": "SUPPORT",
     },
     "typeParameter:cpp": {
+        "bold": true,
         "foreground": "MISC",
     },
     // cmake
