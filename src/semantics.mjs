@@ -42,7 +42,7 @@ export default {
     },
     "module": {
         "bold": true,
-        "foreground": "ANNOTATION",
+        "foreground": "MODULE",
     },
     "operator": {
         "foreground": "KEYWORD",

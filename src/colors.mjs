@@ -20,6 +20,7 @@ export default {
       methodconst: "#00800b",
       // deadcode: "#a68c8c",
       pymethod: "#189022",
+      module: "#b3694d",
    },
    minimus: {
       comment: "#5e7887",
@@ -42,5 +43,6 @@ export default {
       methodconst: "#318c48",
       // deadcode: "#876d5e",
       pymethod: "#469c5c",
+      module: "#72b7c0",
    },
 };
