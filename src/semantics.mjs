@@ -124,6 +124,9 @@ export default {
     "method:python": {
         "foreground": "PYMETHOD",
     },
+    "variable.typeHint:python": {
+        "foreground": "MISC",
+    },
     "variable.readonly:python": {
         "foreground": "CONSTANT",
     },
