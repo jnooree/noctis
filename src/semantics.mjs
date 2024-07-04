@@ -33,6 +33,7 @@ export default {
     },
     "method": {
         "foreground": "METHOD",
+        "fontStyle": "",
     },
     "method.readonly": {
         "foreground": "METHODCONST",
@@ -55,6 +56,7 @@ export default {
     },
     "property": {
         "foreground": "CONSTANT",
+        "fontStyle": "",
     },
     "selfParameter": {
         "italic": true,
