@@ -652,6 +652,7 @@ export default [
       "storage.type.function.pug",
       "storage.type.class.python",
       "storage.type.function.python",
+      "storage.type.function.async.python",
       "storage.type.annotation",
       "punctuation.bracket.angle",
       "keyword.other.new",
